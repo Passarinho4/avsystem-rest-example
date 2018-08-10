@@ -1,10 +1,8 @@
 package com.tegess
 
 import com.tegess.api.ApiV1
-import com.tegess.pubs.PubsApi
-import com.tegess.pubs.PubsApi.{PubName, PubResponse}
-import com.tegess.sales.SalesApi
-import com.tegess.sales.SalesApi.SaleResponse
+import com.tegess.pubs.{PubName, PubResponse, PubsApi}
+import com.tegess.sales.{SaleResponse, SalesApi}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
